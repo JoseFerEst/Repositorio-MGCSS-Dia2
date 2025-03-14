@@ -1,9 +1,9 @@
 package edu.uhu.monopoly;
 
 public abstract class Cell {
-	private boolean available = true;
 	private String name;
 	protected Player proprietary;
+	private boolean available = true;
 
 	public String getName() {
 		return name;

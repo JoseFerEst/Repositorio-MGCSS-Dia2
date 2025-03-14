@@ -7,7 +7,7 @@ import junit.framework.TestCase;
 public class CellInfoFormatterTest extends TestCase {
     
     public void testGoCellTest() {
-        GoCell cell = new GoCell();
+        Cell cell = new GoCell();
         String goLabel = GoCellInfoFormatter.GO_CELL_LABEL;
         assertEquals(goLabel, InfoFormatter.cellInfo(cell));
     }
