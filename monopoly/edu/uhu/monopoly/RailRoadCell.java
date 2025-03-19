@@ -23,7 +23,7 @@ public class RailRoadCell extends Cell {
 		return RailRoadCell.baseRent * (int)Math.pow(2, proprietary.numberOfRR() - 1);
 	}
 	
-	public boolean playAction(String msg) {
+	public boolean playAction(String MSG) {
 		Player currentPlayer = null;
 		if(!isAvailable()) {
 			currentPlayer = GameMaster.instance().getCurrentPlayer();

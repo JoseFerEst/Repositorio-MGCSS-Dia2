@@ -8,7 +8,7 @@ public class JailCell extends Cell {
 		setName("Jail");
 	}
 	
-	public boolean playAction(String msg) {
+	public boolean playAction(String MSG) {
     	return true;
 	}
 }

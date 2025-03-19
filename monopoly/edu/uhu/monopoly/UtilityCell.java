@@ -24,7 +24,7 @@ public class UtilityCell extends Cell {
 		return 0;
 	}
 
-	public boolean playAction(String msg) {
+	public boolean playAction(String MSG) {
 		Player currentPlayer = null;
 		if(!isAvailable()) {
 			currentPlayer = GameMaster.instance().getCurrentPlayer();
